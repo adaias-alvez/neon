@@ -32,16 +32,6 @@ body{
     align-items: center;
     transition: .5s;
 }
-.c::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    border-radius: 50%;
-    transition: .5s 1s;
-    z-index: -1;
-    opacity: 0;
-}
 .c:hover{
     background-size: 105%;
 }
